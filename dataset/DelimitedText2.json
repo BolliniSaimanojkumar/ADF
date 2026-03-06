@@ -15,6 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().MANOJ",
+					"type": "Expression"
+				},
 				"folderPath": "practice",
 				"fileSystem": "practice"
 			},
